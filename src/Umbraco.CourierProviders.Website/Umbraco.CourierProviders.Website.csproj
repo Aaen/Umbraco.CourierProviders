@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <NuGetPackageImportStamp>632107ed</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -84,8 +85,8 @@
       <HintPath>..\..\packages\MvcDonutCaching.1.3.0\lib\net40\DevTrends.MvcDonutCaching.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DisPlay.UmbracoBaseline.Core, Version=1.4.3.27041, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DisPlay.UmbracoBaseline.Core.1.4.3\lib\net45\DisPlay.UmbracoBaseline.Core.dll</HintPath>
+    <Reference Include="DisPlay.UmbracoBaseline.Core, Version=1.6.0.20082, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DisPlay.UmbracoBaseline.Core.1.6.0\lib\net45\DisPlay.UmbracoBaseline.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Examine, Version=0.1.68.0, Culture=neutral, processorArchitecture=MSIL">
@@ -452,6 +453,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\FrontpageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Umbraco.CourierProviders.Core\Umbraco.CourierProviders.Core.csproj">

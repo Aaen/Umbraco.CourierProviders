@@ -1,3 +1,6 @@
+#VS2015
+/.vs/**.*
+
 #NODEJS
 node_modules
 
