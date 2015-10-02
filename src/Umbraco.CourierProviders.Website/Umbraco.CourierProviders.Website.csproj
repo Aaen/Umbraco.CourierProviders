@@ -194,6 +194,9 @@
       <HintPath>..\..\packages\Our.Umbraco.Ditto.0.8.0\lib\net45\Our.Umbraco.Ditto.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Our.Umbraco.DocTypeGridEditor">
+      <HintPath>..\..\lib\DoctypeGridEditor\Our.Umbraco.DocTypeGridEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Our.Umbraco.NestedContent, Version=0.2.5681.29117, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Our.Umbraco.NestedContent.0.2.0\lib\net45\Our.Umbraco.NestedContent.dll</HintPath>
       <Private>True</Private>
@@ -441,6 +444,7 @@
     <Content Include="App_Plugins\DocTypeGridEditor\package.manifest" />
     <Content Include="App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditor.cshtml" />
     <Content Include="App_Plugins\DocTypeGridEditor\Render\DocTypeGridEditorPreviewer.cshtml" />
+    <Content Include="Config\courier.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
