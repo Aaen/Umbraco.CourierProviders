@@ -51,7 +51,7 @@
     "icon": "icon-item-arrangement",
     "config": {
       "allowedDocTypes": ["Test"],
-      "enablePreview": true,
+      "enablePreview": false,
       "viewPath": "/Views/Partials/"
     }
   }
